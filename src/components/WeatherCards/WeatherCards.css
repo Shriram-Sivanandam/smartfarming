@@ -1,0 +1,30 @@
+.weather_card {
+	width: 40vw;
+	margin: 20px;
+}
+
+.cards_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+	.weather_card {
+		width: 80vw;
+		margin: 20px;
+	}
+	.cards_container {
+		flex-direction: column;
+	}
+}
+
+.weather_mainContainer {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.weather_mainContainer::-webkit-scrollbar {
+	display: none;
+}

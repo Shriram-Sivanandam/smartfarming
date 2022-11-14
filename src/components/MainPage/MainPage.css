@@ -1,0 +1,9 @@
+.main_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.report_image {
+	margin: 50px;
+}
